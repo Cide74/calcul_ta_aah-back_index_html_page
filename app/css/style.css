@@ -1,0 +1,20 @@
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: rgba(233, 136, 10, 0.836);
+  line-height: 1.4;
+}
+
+h1 {
+  color: blue;
+}
+
+
+html {
+  background-color: red;
+  overflow-x: auto;
+  
+}
+
+.box {
+  border-bottom: 5px solid grey;
+}

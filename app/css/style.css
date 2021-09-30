@@ -65,13 +65,15 @@ body {
   background-color: #FABAB0;
   border-radius: 1rem;
   display: flex;
+  max-width: 220px;
+  padding: 1rem
 }
 
 .card__img {
-  max-width: 200px;
-  Max-height: 200px;
+    max-width: 220px;
+  Max-height: 220px; 
   margin: 1rem;
-  /*margin: auto; */
+margin: auto;
   border-radius: 1rem;
  
 }

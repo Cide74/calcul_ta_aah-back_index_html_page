@@ -15,6 +15,7 @@ body {
 .title {
   display: flex;
   justify-content: center;
+  margin: 0rem;
   background-color: white;
   border-radius:1rem ;
 }
@@ -133,95 +134,3 @@ a:link
 { 
   text-decoration:none; 
 } 
-
-
-/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 780px*/
-@media screen and (max-width: 780px){
-
-  html {
-    margin: 1rem;
-  }
-
-  body {
-    border-radius:0.5rem ;
-    padding: 1rem;
-  }
-
-  .title {
-    border-radius:0.5rem ;
-  }
-
-  .title__logo {
-    width: 20%;
-    height: 20%;
-    padding: 1rem;
-  }
-
-  .title__name {
-    font-size: 2em;
-    padding: 0.5rem ;
-    width: 100%;
-  }
-
-  .paragraphe {
-    font-size: 0.8em;
-    font-weight: 500;
-    border-radius:0.5rem ;
-    padding: 0.3rem;
-    margin: 0.5rem 0rem;
-  }
-
-  .p__title {
-    margin: 0rem 0rem 0rem 0.5rem;
-    border-radius:0.5rem ;
-  }
-
-  .example__img {
-    max-width: 50%;
-    height: 50%;
-    padding: 0.5rem;
-  }
-
-  .card {
-    margin: 0.25rem;
-    border-radius: 0.5rem;
-    max-width: 150px;
-    padding: 0.5rem;
-  }
-
-  .card__img {
-    max-width: 150px;
-    Max-height: 150px; 
-    border-radius: 0.5rem 0.5rem 0rem 0rem;
-
-  }
-
-  .card__paragraphe {
-    font-size: 0.75em;
-    font-weight: 500;
-    padding: 0rem 0rem 0rem 0.25rem;
-    border-radius:0rem 0rem 0.5rem 0.5rem ;
-    max-width: 220px;
-    height: 100%;
-  }
-
-  .card__ico {
-    max-width: 30px;
-    Max-height: 30px;
-    margin-top: 0.5rem;
-  }
-
-  .paragraphe__card {
-    font-size: 0.8em;
-    border-radius:0.4rem ;
-    padding: 0.25rem;
-    margin-bottom: 0.5rem ;
-  }
-
-  .footer__title {
-    font-size: 0.8em;
-    padding: 0.5rem;
-    border-radius:0.5rem ;
-  }
-
-}
